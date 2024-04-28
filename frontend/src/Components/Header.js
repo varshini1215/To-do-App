@@ -59,21 +59,21 @@ const LogOut = ()  =>{
 
 const loginApi = (e) =>{
   e.preventDefault();
-  const data ={
-    email:mail,
-    password:pass
-  }
+  // const data ={
+  //   email:mail,
+  //   password:pass
+  // }
   loginClose()
 }
 
 
 const signupApi = (e) =>{
 e.preventDefault();
-const data = {
-  username : name,
-  email:mail,
-  password:pass
-}
+// const data = {
+//   username : name,
+//   email:mail,
+//   password:pass
+// }
 accountClose()
 
 }
