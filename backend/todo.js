@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 var router = require('./router');
 
 app.use(cors(
-  origin:["https://deploy-TodoApp.vercel.app"],
+  origin:["https://deploy-todoapp.vercel.app"],
   methods:["POST","GET"],
   credentials:true
 ));
