@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/api/tasks',router);
 
 var mongooseurl="mongodb://localhost:27017/todolist"
-mongoose.connect(mongooseurl,{useNewUrlParser:true})
+mongoose.connect(mongooseurl)
 .then(success=>{
     console.log("connected to mongodb");
     app.listen(port,()=>{
